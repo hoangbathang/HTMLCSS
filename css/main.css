@@ -1,0 +1,379 @@
+*{
+    box-sizing: border-box;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    width: 1519.200px;
+    height: 90px;
+    margin-bottom: 50px;
+
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+.container ul{
+    display: flex;
+    margin:  0 200px;
+    
+}
+.container ul li {
+    padding: 20px;
+}
+.list-menu li:hover{
+    background-color: antiquewhite;
+
+}
+.section1{
+    background-color: rgb(244, 244, 244);
+    width: 1519.200px;
+    height: 1000px;
+}
+.section1 > .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section1 > .container > .time{
+    display: flex;
+    
+
+}
+.section1 .flashdeal h4 {
+    color: rgb(247, 148, 29);
+    font-size: 24px;
+}
+.section1 .flashdeal{
+    padding-top: 100px;
+}
+ .section1 .time .item h4 {
+    color: rgb(247, 148, 29);
+    font-size: 30px;
+    padding: 20px 0;
+}
+.section1 .time .item{
+    padding: 20px 75px;
+    text-align: center;
+
+}
+.section1 .time h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+.section1  .title h6{
+    width: 700px;
+    height: 52px;
+    text-align: center;
+}
+.section1 .purchase{
+    padding: 30px 120px;
+    background-color: #237f52;
+    border-radius: 45px ;
+    margin-top: 20px;
+ 
+}
+.section1 .picture_section1{
+    margin-top: 80px;
+    padding: 0 10px;
+}
+.section2{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+
+}
+.section2 .box{
+    width: 200px;
+    height: 143px;
+    margin: 10px;
+    padding-top: 100px;
+    
+}
+.section2 .box img{
+    width: 210px;
+    height: 143px;
+
+}
+.section2 .box ul li{
+    padding: 10px 0;
+}
+.order-blue , .order-oranger{
+    width: 120px;
+    height: 36px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #237f52;
+
+} 
+.section3 {
+    display: flex;
+    justify-content: center;
+}
+.section3 .box{
+    width: 430px;
+    height:520px;
+    margin: 0 30px;
+    
+    
+     
+}
+.section3 .box h2{
+    width: 309px;
+    font-size: 36px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 70px 0;
+}
+.section3 .box h3{
+    font-size: 36px;
+    padding: 10px 0px;
+    margin-top: 40px;
+}
+.section3 .box .p1{
+    margin: 0 auto;
+    
+    width: 369px;
+    height: 73px;
+    margin-bottom: 40px;
+}
+.section3 .box a{
+    margin: 92px;
+    padding: 21px 60px;
+    
+    background-color: #237f52;
+    border-radius: 20px;
+}
+.color_orange{
+    background-color: #f7941d;
+}
+.section3 .box p{
+    padding: 10px 0;
+}
+.section3 .box .item{
+    display: flex;
+    padding: 20px 0;
+}
+.section3 .box .item h5{
+    padding: 0 20px;
+    font-size: 20px;
+}
+
+.section3 .box .item p{
+    padding: 10px 20px;
+}
+.section3 .box .item img{
+    width: 70px;
+    height: 70px;
+}
+.section4 {
+    display: flex;
+   
+    justify-content: center;
+    background-color: rgb(244, 244, 244);
+    
+}
+.section4 .box{
+    width: 430px;
+    height:600px;
+    padding: 150px 0;
+    
+}
+.section4 .box .title h2{
+    font-size: 36px;
+    padding: 20px 0;
+    margin-left: 0px;
+
+}
+.section4 .box .title p{
+    padding: 20px 0;
+
+}
+.section4 .box .item{
+    display: flex;
+    padding: 20px 0;
+}
+.section4 .box .item img{
+    width: 70px;
+    height: 49px;
+}
+.section4 .box .item h5{
+    padding: 0 20px;
+    font-size: 26px;
+
+}
+.section4 .box .item p{
+    padding: 20px 20px;
+}
+.section5 .container{
+    display: flex;
+    justify-content: center; 
+}
+.section5 .container .box{
+    width: 540px;
+    height: 400px;
+    padding: 100px 70px;  
+}
+.section5 .container .box .item img{
+    width: 100px;
+    height: 95px;
+    margin-top: 50px;
+}
+.section5 .container .box .item h2{
+    font-size: 36px;
+    padding: 10px 0;
+}
+.section5 .container .box .item h6{
+    padding: 10px 0;
+    color: #f7941d;
+
+}
+.section5 .container .box .item h6 p{
+    padding: 10px 0;
+}
+.section5{
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  
+}
+.section5 .box{
+    margin: 0 80px;
+    
+}
+.section5 .logo{
+    height: 232px;
+    width: 960px;
+}
+.section5 .box .background{
+    height: 10px;
+    width: 400px;
+    background-image: url('https://pixfort.com/items/1/images/deal/newsletter-pattern.png');
+}
+.section5 .box h4{
+    padding: 20px 10px;
+    font-size: 26px;
+}
+.section5 .box p{
+    padding: 0px 0px;
+    font-size: 19px;
+}
+.section5 .form {
+    background-color: rgb(244, 244, 244);
+    width: 400px;
+    height: 350px;
+    
+}
+.section5 .container .box{
+    width: 400px;
+    height: 450px;
+}
+.section5 .container .item{
+    width: 400px;
+    height: 450px;
+   
+}
+.section5 form input{
+    padding: 10px 50px;
+    margin: 10px 30px;
+    border-radius: 30px ;
+}
+.section5 .submit{
+    background-color: #f7941d;
+    text-align: center;
+}
+.section5 .itemform p{
+   margin-left: 50px;
+   margin-bottom: 20px;
+    
+}
+.section5 .logo{
+    width: 960px;
+    height: 232px;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 100px;
+
+}
+.section5 .logo img{
+    padding: 20px 80px;
+ 
+}
+.section6{
+    padding: 200px 0px;
+    margin-top: 100px;
+    text-align: center;
+    background-color: rgb(244, 244, 244);
+    height: 775px;
+ 
+    
+}
+.section6 h4{
+    font-size: 20px;
+    color: #f7941d;
+}
+.section6 h1{
+    font-size: 40px;
+}
+.section6 a{
+    padding: 18px 70px;
+    background-color: #237f52;
+    border-radius: 30px;
+    color: white;
+   
+}
+.section6 p{
+   margin: 30px 0;
+    width: 700px;
+    height: 52px;
+}
+.section6 img{
+    margin-top: -100px;
+    height: 350px;
+    width: 350px;
+}
+.section6 .description{
+    margin-left: 400px;
+    
+}
+.section7{
+    display: flex;
+    justify-content: center;
+    height: 350px;
+}
+.section7 .box{
+    width: 320px;
+    margin: 100px 20px;
+}
+.section7 .img{
+    width: 300px;
+    height: 160px;
+}
+.section7 p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.section7 h4{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.section7 a{
+    padding: 14px 30px;
+    background-color: #f7941d;
+    border-radius: 25px;
+}
+
+
+
+
+
+
+
+
+
+
